@@ -12,7 +12,7 @@ html{
 
 body{
     font-family: inter, sans-serif;
-    background-color: white;
+    background-color: lightgray;
     color: black;
 }
 
@@ -68,9 +68,10 @@ a{
     margin: 0 auto;
     display: grid;
     padding: 5rem;
-    background: lightgray;
+    background: white;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+    box-shadow: 10px 10px 8px #888888;
 }
 
 @media only screen and (max-width: 768px) {
@@ -268,4 +269,33 @@ hr{
     hr{
         margin: 0 auto;
     }
+}
+
+.contact_links{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 5%;
+
+}
+.contact_links i{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: lightgray;
+}
+.contact_links a{
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.cover_letter{
+    margin-top: 3rem;
+}
+.cover_letter p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 1.3rem;
+    line-height: 1.6;
 }
